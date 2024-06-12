@@ -1,10 +1,5 @@
-use master
-go
-drop database if exists [Planny]
-go
-create database [Planny]
-go
-use [Planny]
+create database if not exists Planny;
+use Planny;
 go
 
 ----- CREATE TABLE PHASE -----
